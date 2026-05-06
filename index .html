@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SABOUR & HAMOUDIYATOU — Union Bénie</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Amiri:wght@400;700&family=Lato:wght@300;400&display=swap"
+    rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-petal">
+      <span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span>
+      <div class="loader-center"></div>
+    </div>
+    <p>Bismillah…</p>
+  </div>
+
+  <!-- MUSIC BUTTON -->
+  <audio id="bgMusic" loop>
+    <source src="musique/simi.mp3" type="audio/mpeg">
+  </audio>
+  <button id="musicToggle" aria-label="Musique">♪</button>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="slide-container" id="slideshow">
+      <img src="assets/couple1.jpeg" class="slide-img" alt="Photo du couple">
+      <img src="assets/couple2.jpeg" class="slide-img" alt="Photo du couple">
+      <img src="assets/couple3.jpeg" class="slide-img" alt="Photo du couple">
+      <img src="assets/couple4.jpeg" class="slide-img" alt="Photo du couple">
+      <img src="assets/couple5.jpeg" class="slide-img" alt="Photo du couple">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="corner-deco corner-tl"></div>
+    <div class="corner-deco corner-tr"></div>
+    <div class="corner-deco corner-bl"></div>
+    <div class="corner-deco corner-br"></div>
+
+    <div class="hero-content">
+      <p id="bismillah">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</p>
+      <p class="hero-invite" id="heroInvite">Vous êtes invités à notre union bénie</p>
+
+      <div class="hero-names">
+        <span class="name-main" id="name1">Abressi Toure Sabour</span>
+        <span class="name-ampersand" id="nameAnd">&amp;</span>
+        <span class="name-main" id="name2">Sibabi Akpo Hamoudiyatou</span>
+      </div>
+
+      <div class="hero-date-block" id="heroDate">
+        <div class="hero-line"></div>
+        <p class="hero-date-text">30 · 31 Mai 2026</p>
+        <p class="hero-place">Salimdè — Sokodé, Togo</p>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>Défiler</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- VERSET CORANIQUE -->
+  <section id="verse">
+    <div class="section-inner reveal">
+      <p class="section-tag">✦ Parole divine ✦</p>
+      <div class="floral-divider"><span class="petal-icon">❀</span></div>
+      <blockquote class="verse-quote">
+        « Et parmi Ses signes, Il a créé pour vous, de vous-mêmes, des épouses afin que vous trouviez auprès d'elles la
+        quiétude, et Il a mis entre vous de l'affection et de la bonté. »
+      </blockquote>
+      <p class="verse-ref">— Sourate Ar-Rûm, verset 21</p>
+      <p class="verse-message">
+        Au nom d'Allah le Tout Miséricordieux, les familles <strong>Toure</strong> et <strong>Sibabi Akpo</strong> ont
+        la joie profonde de vous convier à la célébration du mariage de leurs enfants bien-aimés.
+      </p>
+      <div class="floral-divider"><span class="petal-icon">✿</span></div>
+    </div>
+  </section>
+
+  <!-- PROGRAMME -->
+  <section id="programme">
+    <div class="section-inner">
+      <p class="section-tag reveal">✦ Programme ✦</p>
+      <h2 class="reveal"
+        style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(2rem,5vw,3rem);line-height:1.2;margin-bottom:8px;">
+        Deux jours de célébration</h2>
+      <p class="reveal" style="font-family:'EB Garamond',serif;font-style:italic;color:var(--dusty);">Un lien sacré, une
+        joie partagée</p>
+
+      <div class="programme-grid">
+        <!-- Jour 1 -->
+        <div class="programme-card reveal reveal-delay-1">
+          <p class="card-day">Samedi · 30 Mai 2026</p>
+          <h3 class="card-title">Le Nikah</h3>
+          <p class="card-subtitle">Cérémonie Religieuse</p>
+          <div class="card-details">
+            <div class="card-detail">
+              <div class="detail-icon">
+                <svg viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+              </div>
+              <div>
+                <div class="detail-label">Heure</div>
+                <div class="detail-value">09h00</div>
+              </div>
+            </div>
+            <div class="card-detail">
+              <div class="detail-icon">
+                <svg viewBox="0 0 24 24">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div>
+                <div class="detail-label">Lieu</div>
+                <div class="detail-value">Salimdè, Sokodé — Togo</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Jour 2 -->
+        <div class="programme-card reveal reveal-delay-2">
+          <p class="card-day">Dimanche · 31 Mai 2026</p>
+          <h3 class="card-title">La Réception</h3>
+          <p class="card-subtitle">Célébration & Festivités</p>
+          <div class="card-details">
+            <div class="card-detail">
+              <div class="detail-icon">
+                <svg viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+              </div>
+              <div>
+                <div class="detail-label">Heure</div>
+                <div class="detail-value">14h00</div>
+              </div>
+            </div>
+            <div class="card-detail">
+              <div class="detail-icon">
+                <svg viewBox="0 0 24 24">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div>
+                <div class="detail-label">Lieu</div>
+                <div class="detail-value">Espace des Grands, Sokodé</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPTE À REBOURS -->
+  <section id="countdown">
+    <div class="section-inner">
+      <p class="countdown-label reveal">✦ Plus que ✦</p>
+      <div class="countdown-grid reveal">
+        <div class="countdown-item">
+          <div class="countdown-num" id="cd-days">--</div>
+          <div class="countdown-unit">Jours</div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-num" id="cd-hours">--</div>
+          <div class="countdown-unit">Heures</div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-num" id="cd-mins">--</div>
+          <div class="countdown-unit">Minutes</div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-num" id="cd-secs">--</div>
+          <div class="countdown-unit">Secondes</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIE -->
+  <section id="galerie">
+    <div class="section-inner">
+      <p class="section-tag reveal">✦ Galerie ✦</p>
+      <h2 class="reveal"
+        style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(1.8rem,4vw,2.8rem);margin-bottom:8px;">
+        Nos moments</h2>
+      <p class="reveal" style="font-family:'EB Garamond',serif;font-style:italic;color:var(--dusty);">Chaque image, une
+        promesse</p>
+
+      <div class="slideshow-wrap reveal">
+
+        <!-- Anneau décoratif rotatif -->
+        <div class="ring-outer"></div>
+        <div class="ring-inner"></div>
+
+        <!-- Pétales de fond -->
+        <div class="petal-bg">
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span>
+        </div>
+
+        <!-- Cadre principal circulaire -->
+        <div class="slide-main">
+          <div class="slide-main-track">
+            <div class="slide-frame active">
+              <img src="assets/couple1.jpeg" alt="Couple 1">
+            </div>
+            <div class="slide-frame">
+              <img src="assets/couple2.jpeg" alt="Couple 2">
+            </div>
+            <div class="slide-frame">
+              <img src="assets/couple3.jpeg" alt="Couple 3">
+            </div>
+            <div class="slide-frame">
+              <img src="assets/couple4.jpeg" alt="Couple 4">
+            </div>
+            <div class="slide-frame">
+              <img src="assets/couple5.jpeg" alt="Couple 5">
+            </div>
+          </div>
+          <!-- Overlay brillance -->
+          <div class="slide-shine"></div>
+        </div>
+
+        <!-- Compteur -->
+        <div class="slide-counter">
+          <span class="counter-cur">1</span>
+          <span class="counter-sep">—</span>
+          <span class="counter-tot">5</span>
+        </div>
+
+        <!-- Flèches -->
+        <button class="slide-btn slide-prev" aria-label="Précédent">
+          <svg viewBox="0 0 24 24">
+            <polyline points="15 18 9 12 15 6" />
+          </svg>
+        </button>
+        <button class="slide-btn slide-next" aria-label="Suivant">
+          <svg viewBox="0 0 24 24">
+            <polyline points="9 6 15 12 9 18" />
+          </svg>
+        </button>
+
+        <!-- Miniatures circulaires -->
+        <div class="slide-thumbs">
+          <button class="thumb active" data-index="0">
+            <img src="assets/couple1.jpeg" alt="">
+          </button>
+          <button class="thumb" data-index="1">
+            <img src="assets/couple2.jpeg" alt="">
+          </button>
+          <button class="thumb" data-index="2">
+            <img src="assets/couple3.jpeg" alt="">
+          </button>
+          <button class="thumb" data-index="3">
+            <img src="assets/couple4.jpeg" alt="">
+          </button>
+          <button class="thumb" data-index="4">
+            <img src="assets/couple5.jpeg" alt="">
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONFIRMATION -->
+  <section id="confirmation">
+    <div class="section-inner" style="text-align:center;">
+      <div class="reveal">
+        <div class="floral-divider"><span class="petal-icon">❀</span></div>
+        <h2
+          style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:clamp(2rem,5vw,3rem);margin-bottom:16px;">
+          Serez-vous des nôtres ?</h2>
+        <p
+          style="font-family:'EB Garamond',serif;font-style:italic;color:var(--muted);font-size:1.1rem;max-width:500px;margin:0 auto;">
+          Votre présence sera notre plus belle bénédiction. Nous espérons vous accueillir dans la joie et l'amour.
+        </p>
+        <button class="btn-floral" onclick="alert('Merci pour votre confirmation ! Qu\'Allah vous récompense.')">
+          Confirmer ma présence
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p class="footer-arabic">بَارَكَ اللهُ لَكُمَا</p>
+    <p class="footer-text">Qu'Allah bénisse votre union et votre présence parmi nous</p>
+    <div class="footer-line"></div>
+    <p class="footer-copy">© 2026 — Sabour & Hamoudiyatou — Sokodé, Togo</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
